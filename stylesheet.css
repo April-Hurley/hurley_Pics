@@ -1,0 +1,93 @@
+figcaption, label, input, small {font-size: 1em;}
+nav a {font-size: 1.5em;}
+h2 {font-size: 2em;}
+*{font-family: Arial, Helvetica, sans-serif;}
+
+h1 {
+    font-size: 3em;
+    text-align: left;
+    color: #007d7b;
+    background: #ffffff;
+    width: auto;
+    margin-top: 0%;
+}
+p {
+    font-size: 1.25em;
+    text-align: left;
+}
+#contactInfo p{
+    text-align: center;
+}
+html{
+    text-align: center;
+    width: 1200px;
+    background: #000000;
+    margin: auto;
+}
+main{
+    background: #ffffff;
+}
+ul{
+    list-style-type: none;
+    text-align: right;
+}
+li{
+    display: inline;
+    color: #ffffff;
+    padding: 20px;
+}
+[href="#top"] {
+    position:fixed;
+    bottom:0px;
+    right:0px;
+    border-radius:10px 0 0px 0px;
+    padding: 8px;
+    background-color: #666;
+    color: #ffffff;
+  }
+  .pics{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 100%;
+    max-height: 80%;
+  }
+  @media (max-width: 900px) {
+    .pics { 
+        grid-template-columns: repeat(2, 1fr); 
+        max-width: 100%;
+        max-height: 80%;
+    }
+    html{
+        width: auto;
+    }
+  }
+  @media (max-width: 500px) {
+    .pics { 
+        grid-template-columns: repeat(1, 1fr); 
+    }
+    html{
+        width: auto;
+    }
+  }
+  img{
+    max-width: 100%;
+    max-height: 100%;
+  }
+  #contactInfo{
+    color: #007d7b;
+    background: #000000;
+  }
+  #contactInfo h2, #contactInfo p, #contactInfo h3, #contactInfo label{
+    color:#ffffff;
+  }
+  form{
+    width: 30%;
+    text-align: center;
+    margin: auto;
+  }
+  #submit{
+    border-radius: 8px;
+    background-color: #007d7b;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+  }
